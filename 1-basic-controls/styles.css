@@ -1,0 +1,49 @@
+:root{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: monospace;
+
+}
+
+body{    
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    border: 2px #FFFFFF;
+    border-radius: 8px;
+    margin: 24px auto;
+    border-style: dashed;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #aaf;
+}
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button{
+    background-color: #afa;
+    border-radius: 100%;
+}
+
+audio::-webkit-media-controls-timeline{
+    background-color: #afa;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0 8px;
+}
+
+.visual-sound{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#playButton{
+    width: 40px;
+    cursor: pointer;
+}
+#playButton:hover{
+    transform: scale(1.1);
+}
